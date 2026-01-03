@@ -24,7 +24,7 @@ if(NOT stb_FOUND)
     FetchContent_Declare(
         stb
         GIT_REPOSITORY https://github.com/nothings/stb.git
-        GIT_TAG f58f558c120e9b32c217290b80bad1a0729fbb2c  # Current main as of Aug 2025
+        GIT_TAG f1c79c02822848a9bed4315b12c8c8f3761e1296  # Current main as of Dec 2025
         GIT_SHALLOW ON
     )
     FetchContent_GetProperties(stb)
@@ -54,7 +54,7 @@ if(used_fetchcontent)
     message(STATUS "STB Used FetchContent: ${stb_SOURCE_DIR}")
 
     install(DIRECTORY "${stb_SOURCE_DIR}/"
-        DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/stb
+        DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
         FILES_MATCHING PATTERN "*.h"
     )
 else()

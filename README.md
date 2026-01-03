@@ -4,7 +4,26 @@ Named after Viracocha (the Inca creator deity and creator of the Scene, sun, moo
 
 This project provides a library which can be used for building new projects, as well as several executables to provide specific functionality.
 
-In the future, we hope to consolidate these executables into a single comprehensive application, as well as to provide bindings for Python, Julia, and MATLAB.
+**Supported Platforms:** Linux, macOS (ARM), Windows
+
+[![CI/CD Pipeline](https://github.com/crgnam/vira/actions/workflows/ci-cd.yml/badge.svg?branch=main)](https://github.com/crgnam/vira/actions/workflows/ci-cd.yml?query=branch%3Amain)
+[![Coverage](https://codecov.io/gh/crgnam/vira/branch/main/graph/badge.svg)](https://app.codecov.io/gh/crgnam/vira/tree/main)
+
+***
+
+# NOTICE OF FORK:
+> [!IMPORTANT]
+> This is a maintenance fork of the [original NASA open source release](https://github.com/nasa/vira), maintained by the original author.
+
+> [!WARNING]  
+> This project was released under expedited circumstances, and there are several known issues being actively tracked in the [Issues](https://github.com/crgnam/vira/issues) section of this repository.
+> Users should review open issues before deploying in production environments. **Contributions and bug reports are welcome.**
+
+<!--
+> [!IMPORTANT]
+> **For new projects, please use [Huira](https://github.com/huira-render/huira)**, which is the actively developed successor to Vira with improved features and ongoing support.
+> **Note:** Huira is currently under active development and not yet feature-complete. If you need a stable, working solution today, Vira remains functional for production use. This fork receives basic maintenance and critical bug fixes.
+-->
 
 ## Repository File Structure
 - `cmake/`: CMake helper modules
